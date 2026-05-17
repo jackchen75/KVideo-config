@@ -16,14 +16,6 @@
     "priority": 1
   },
   {
-    "id": "dytt",
-    "name": "🎬电影天堂",
-    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "360zy",
     "name": "🎬360 资源",
     "baseUrl": "https://360zyzz.com/api.php/provide/vod",
@@ -147,14 +139,6 @@
     "id": "xiaoji",
     "name": "🔞小鸡资源",
     "baseUrl": "https://api.xiaojizy.live/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "hsck",
-    "name": "🔞黄色仓库",
-    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
     "group": "premium",
     "enabled": true,
     "priority": 1
@@ -288,14 +272,6 @@
     "priority": 5
   },
   {
-    "id": "uku",
-    "name": "🎬U酷影视",
-    "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
-  },
-  {
     "id": "madou",
     "name": "🔞麻豆视频",
     "baseUrl": "https://91md.me/api.php/provide/vod",
@@ -384,12 +360,39 @@
     "priority": 10
   },
   {
+    "id": "dytt",
+    "name": "🎬电影天堂",
+    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "uku",
+    "name": "🎬U酷影视",
+    "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
+    "id": "hsck",
+    "name": "🔞黄色仓库",
+    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "group": "premium",
+    "enabled": false,
+    "priority": 101,
+    "_comment": "超时/宕机"
+  },
+  {
     "id": "wolong",
     "name": "🎬卧龙资源",
     "baseUrl": "https://wolongzyw.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 102,
+    "priority": 103,
     "_comment": "超时/宕机"
   },
   {
