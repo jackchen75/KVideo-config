@@ -328,14 +328,6 @@
     "priority": 5
   },
   {
-    "id": "maotai",
-    "name": "🎬茅台资源",
-    "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
-  },
-  {
     "id": "uku",
     "name": "🎬U酷影视",
     "baseUrl": "https://api.ukuapi88.com/api.php/provide/vod",
@@ -364,6 +356,14 @@
     "name": "🔞鲨鱼资源",
     "baseUrl": "https://shayuapi.com/api.php/provide/vod",
     "group": "premium",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "maotai",
+    "name": "🎬茅台资源",
+    "baseUrl": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "group": "normal",
     "enabled": false,
     "priority": 101,
     "_comment": "超时/宕机"
@@ -374,7 +374,7 @@
     "baseUrl": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
     "group": "premium",
     "enabled": false,
-    "priority": 105,
+    "priority": 106,
     "_comment": "搜索无结果"
   },
   {
@@ -383,7 +383,7 @@
     "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 107,
+    "priority": 108,
     "_comment": "接口解析错误"
   },
   {
@@ -392,7 +392,7 @@
     "baseUrl": "https://wolongzyw.com/api.php/provide/vod",
     "group": "normal",
     "enabled": false,
-    "priority": 114,
+    "priority": 115,
     "_comment": "接口解析错误"
   },
   {
